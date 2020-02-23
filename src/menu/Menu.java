@@ -16,7 +16,7 @@ public class Menu {
     }
 
     public int showChoice() {
-        System.out.println("Welcome to Devesh's Contact List App\n" +
+        System.out.println("Welcome to Nitin's Contact List App\n" +
                 "Press 1 to add a new contact\n" +
                 "Press 2 to view all contacts\n" +
                 "Press 3 to search for a contact\n" +
@@ -65,10 +65,8 @@ public class Menu {
             System.out.print("Email Address: ");
             email = scan.nextLine().trim();
             person.setEmailID(email);
-            System.out.println("y");
         } else {
             person.setEmailID("");
-            System.out.println("n");
         }
 
         Node<Person> node = new Node<>();
